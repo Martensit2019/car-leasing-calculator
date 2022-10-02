@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+  .inputs__wrapper {
+    flex-wrap: wrap;
+  }
+  .nums__wrapper {
+    margin-bottom: 44px;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+  .num {
+    min-width: 50%;
+    margin-bottom: 44px;
+  }
+  .btn {
+    max-width: 345px;
+  }
+}
+@media (max-width: 750px) {
+  h1 {
+    font-size: 34px;
+    line-height: 90%;
+  }
+  .nums__wrapper {
+    margin-bottom: 32px;
+    display: block;
+  }
+  .num {
+    min-width: 100%;
+    margin-bottom: 22px;
+    &__label {
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 2px;
+    }
+    &__text {
+      font-size: 22px;
+      line-height: 90%;
+    }
+  }
+  .form__input {
+    .label {
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 8px;
+    }
+    .input {
+      font-size: 22px;
+      line-height: 20px;
+    }
+    .input-percent__wrapper {
+      height: 40px;
+      top: 36px;
+    }
+    .params-text {
+      font-size: 22px;
+      line-height: 20px;
+    }
+  }
+  .btn {
+    padding: 14px 0;
+    font-size: 22px;
+  }
+}

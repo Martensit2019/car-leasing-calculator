@@ -1,0 +1,45 @@
+.btn {
+  width: 100%;
+  padding: 16px 0;
+  background-color: #ff9514;
+  border-radius: 40px;
+  border: none;
+  font-family: 'Nekst-Black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all .3s ease-in;
+  &:hover {
+    background-color: #000;
+  }
+  &:disabled{
+    opacity: 0.4;
+    cursor: none;
+    &:hover{
+      background-color: #ff9514;
+    }
+  }
+}
+.btn__loading{
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 1s linear 0s normal none infinite running rot;
+  }
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
