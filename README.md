@@ -1,7 +1,7 @@
 # car-leasing-calculator
 
 ### Demo
-See [Configuration Reference](https://martensit2019.github.io/car-leasing-calculator/).
+See [Посмотреть в действии](https://martensit2019.github.io/car-leasing-calculator/).
 
 ## Project setup
 ```
